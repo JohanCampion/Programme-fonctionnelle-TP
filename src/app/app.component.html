@@ -17,7 +17,7 @@
       </div>
 
       <div class="form-field">
-        <label>Point de d'arrivé : </label>
+        <label>Point d'arrivé : </label>
         <select formControlName="arrive">
           <option value="">Choisissez le point d'arrivé</option>
           <option *ngFor="let ville of villes" [ngValue]="ville">{{ville}}</option>
