@@ -11,19 +11,20 @@ En maniplulant l'application l'on peut observer que globalement l'algorithme de 
 
 Exemple sur un trajet Strasbourg - Nante : 
 
-![Texte alternatif](./src/assets/md-images/stras-nantes-bfs.png "Strasbourg - Nante via algorithme BFS").
+|![Texte alternatif](./src/assets/md-images/stras-nantes-bfs.png "Strasbourg - Nante via algorithme BFS")|
+-
 
-![Texte alternatif](./src/assets/md-images/stras-nantes-dij.png "Strasbourg - Nante via algorithme BFS").
-
+|![Texte alternatif](./src/assets/md-images/stras-nantes-dij.png "Strasbourg - Nante via algorithme BFS")|
+-
 L'on remarque que les deux algorithmes on trouvé le même itinaire cependant l'algorithme de dijkstra met pratiquement 6 fois plus de temps
 d'exécution avec 0.6 milliseconde contre seulement 0.1 milliseconde pour BFS.
 
 Cependant si l'on prend un itinéraire un peu plus complexe comme un Strasbourg - Barcelone : 
 
-![Texte alternatif](./src/assets/md-images/stras-barc-dfs.png "Strasbourg - Nante via algorithme BFS").
-
-![Texte alternatif](./src/assets/md-images/stras-bar-dij.png "Strasbourg - Nante via algorithme BFS").
-
+|![Texte alternatif](./src/assets/md-images/stras-barc-dfs.png "Strasbourg - Nante via algorithme BFS")|
+-
+|![Texte alternatif](./src/assets/md-images/stras-bar-dij.png "Strasbourg - Nante via algorithme BFS")|
+-
 Ici l'on remarque que BFS reste le plus rapide en termes d'exécution, mais c'est dijkstra qui trouve l'itinéraire le plus rapide.
 En effet BFS n'est pas capable de gérer des valeur de branche supérieur à 1, c'est donc dijkstra qui est le plus approprié dans ce genre de cas.
 
