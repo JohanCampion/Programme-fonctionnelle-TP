@@ -1,0 +1,40 @@
+header {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form-field {
+  margin-bottom: 2rem;
+}
+
+.affichage {
+  padding: 3rem;
+  border: 1px solid black;
+}
+
+.result {
+  margin-top: 3rem;
+  padding: 0.5rem;
+  height: 10rem;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  h2 {
+    text-align: center;
+    margin: 0;
+  }
+}
+
+
