@@ -28,6 +28,7 @@ export class AppComponent implements OnInit{
 
   private graph;
 
+  // Injection de dependances
   constructor(private formBuilder: FormBuilder) {}
 
   ngOnInit(): void {
@@ -58,8 +59,6 @@ export class AppComponent implements OnInit{
       } else {
         this.result = findShortestPathDijkstra(this.graph, depart, arrive);
       }
-
-      console.log(this.result);
     }
   }
 
